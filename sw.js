@@ -26,34 +26,27 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-553a1a38c6b8d3a24ba8.js"
+    "url": "webpack-runtime-5b5fe1f99d258f15f74a.js"
   },
   {
-    "url": "app-6109d4c1320cc241deda.js"
+    "url": "app-b3aa8411df384bdf5e45.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-0a722e7e178d3c22dc4e.js"
   },
   {
     "url": "index.html",
-    "revision": "2481ff139b59edf899451c3016b7b332"
+    "revision": "8c7d3a9e1084d81726552073aa67bc90"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "35a0d2224feebd325489a6dd69bfb768"
+    "revision": "45d6d3ff02a7f11e7e9174bc77f8735f"
   },
   {
-    "url": "component---src-pages-index-js.25253ecbadea53a9662a.css"
+    "url": "css/main.css"
   },
   {
-    "url": "component---src-pages-index-js-df03157a6abdcb3876ea.js"
-  },
-  {
-    "url": "0-87574e99d91e2ff93af8.js"
-  },
-  {
-    "url": "static/d/173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E.json",
-    "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
+    "url": "js/jquery.main.js"
   },
   {
     "url": "component---src-pages-404-js-c08e69e2a59ba3e7368b.js"
