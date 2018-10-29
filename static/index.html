@@ -10,6 +10,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
 	<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js" defer><\/script>')</script>
 	<script src="js/jquery.main.js" defer></script>
+	<script src="js/scroll.js" defer></script>
 </head>
 <body>
 	<div id="wrapper">
@@ -21,24 +22,24 @@
 						<img src="images/logo.svg" width="64" height="22" alt="talio">
 					</a>
 				</strong>
-				<!-- <div class="menu-drop">
+				<div class="menu-drop">
 					<ul class="menu">
 						<li>
-							<a href="#">ABOUT</a>
+							<a href="#about">ABOUT</a>
 						</li>
 						<li>
-							<a href="#">OFFERINGS</a>
+							<a href="#offerings">OFFERINGS</a>
 						</li>
 					</ul>
 					<ul class="menu rigth">
 						<li>
-							<a href="#">NEWS</a>
+							<a href="#community">COMMUNITY</a>
 						</li>
 						<li>
-							<a href="#">CONTACT</a>
+							<a href="#contact">CONTACT</a>
 						</li>
 					</ul>
-				</div> -->
+				</div>
 			</div>
 		</header>
 		<div class="intro-section">
@@ -110,7 +111,7 @@
 						<div class="img-frame">
 							<img src="images/map-img.png" alt="image description">
 						</div>
-						<div class="text-frame">
+						<div class="text-frame" id="about">
 							<p>Talio powers talent transformation of leading companies in Silicon Valley and beyond to help them build a workforce equipped with the knowledge and skills to leverage emerging technologies to compete in tomorrows economy. As technologist educators, we're committed to building engineering communities that inspire growth beyond the classroom.</p>
 						</div>
 						<div class="logos-block">
@@ -135,7 +136,7 @@
 			<div class="section-banner" style="background-image: url(images/bg-img-010.jpg);"></div>
 			<section class="content-section bordered">
 				<div class="container">
-					<div class="section-heading">
+					<div class="section-heading" id="offerings">
 						<h1>Custom Upskilling Bootcamps in Nascent Technologies</h1>
 					</div>
 					<div class="post-block reverse">
@@ -472,7 +473,7 @@
 		</section>
 		<section class="content-section">
 			<div class="container">
-				<div class="section-heading">
+				<div class="section-heading" id="community">
 					<h1>Talio Community</h1>
 				</div>
 				<div class="post-block post-block-alt reverse">
@@ -503,7 +504,7 @@
 	<footer id="footer" style="background-image: url(images/img-001.jpg)">
 		<div class="container">
 			<div class="col-holder">
-				<div class="col">
+				<div class="col" id="contact">
 					<strong class="title">Say Hello</strong>
 					<p>Send us a note for partnerships, onboarding for your company, or anything else.</p>
 					<span class="email">Contact us:<a href="mailto:hello@talio.io">hello@talio.io</a></span>
