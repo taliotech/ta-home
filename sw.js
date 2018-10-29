@@ -36,7 +36,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "d09fd0d2377c4c0ea56a77a93db59e05"
+    "revision": "56102a6fc0ca39134dc012daebbd484f"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
@@ -47,6 +47,9 @@ self.__precacheManifest = [
   },
   {
     "url": "js/jquery.main.js"
+  },
+  {
+    "url": "js/scroll.js"
   },
   {
     "url": "component---src-pages-404-js-c08e69e2a59ba3e7368b.js"
