@@ -1785,7 +1785,7 @@ body.compensate-for-scrollbar {
 
 .container {
 	margin: 0 auto;
-	max-width: 770px;
+	max-width: 1024px;
 	padding: 0 15px;
 }
 
@@ -2873,7 +2873,7 @@ textarea {
 	}
 
 	.intro-section .partners-list {
-		max-width: 80%;
+		max-width: 75%;
 	}
 }
 
@@ -2900,6 +2900,10 @@ textarea {
 
 	.testimonials-slider .img-holder {
 		min-height: 450px;
+	}
+
+	.intro-section .partners-list {
+		max-width: 60%;
 	}
 }
 
@@ -2982,4 +2986,4 @@ textarea {
 		transform: rotate(359deg);
 	}
 }
-
+
